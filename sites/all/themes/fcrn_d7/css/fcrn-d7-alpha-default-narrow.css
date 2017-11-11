@@ -1,0 +1,210 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal
+ *  and widescreen CSS files as appropriate. */
+
+.node-type-blog  #block-system-main .grid-9 .field-name-ds-user-picture {
+	float:right;
+	width:7%;
+}
+
+
+
+/* REGION SPECIFIC FONT SIZING */
+.front .pane-1 p span {
+	font-size:1.4em;
+	line-height:1.2em;
+}
+.front .panel-pane h3 {
+	font-size:1.7em;
+}
+
+
+/* SIDEBAR FIRST */
+
+#region-sidebar-first {font-size:0.8em;font-size:0.8rem;}
+
+
+/* Sidebar menu width control */
+ #region-sidebar-first .block h2 {width:79%;}
+ #region-sidebar-first .block .content li.active-trail a {width:97%;}
+
+
+
+
+
+#zone-branding {
+	padding:1em;
+}
+
+#block-custom-search-blocks-1 {
+	float:right;
+	text-align:right;
+}
+.branding-data {
+	width:45%;
+	float:left;
+}
+
+
+
+/* RESEARCH LIBRARY LAYOUTS  */
+
+
+.pane-node-field-region {
+	width:50%;
+	float:left;
+}
+
+/* FORM ELEMENTS  */
+
+ #block-views-exp-users-page-3 .block-inner {
+		padding:1em;
+	}	
+
+
+.views-field-upload img, .views-field-picture {
+	padding:0;
+}
+
+/*END advisory board*/
+
+
+body[class*="page-network"] .pane-network-members-row-1 .panel-col-first img {
+	height:156px;
+}
+  .page-network-members .panel-pane  h3,  
+  .page-network .panel-pane  h3,  
+ .page-spotlight .panel-pane  h3,  
+  .page-resources .panel-pane h3   {
+	font-size:1.7em;
+}
+
+body[class*="page-network"] .view-term-lists .views-row-odd, 
+body[class*="page-network"] .view-term-lists .views-row-even {
+width:100%;
+}
+body[class*="page-network"] .view-term-lists .views-row a {
+	padding:1px;
+	height:24px;
+}
+
+.regionoverride {
+	width:64%;
+	float:right;
+	margin-top:-34px;
+}
+
+.signups {
+width:71%;
+}
+
+ 
+	
+ 
+	  /* FRONT CONNECT SM BLOCK */
+
+.pane-block-33 h2 {
+	font-size:1.8em;
+	margin-bottom:0;
+}
+
+/* MENU BAR SEARCH BOX */
+#region-menu #edit-search-api-views-fulltext-wrapper {
+	width:64%;
+	float:left;
+}
+#zone-menu .block-views {
+	float:left;
+	width:31%;
+}
+
+
+
+/* NEW HOMEPAGE STUFF */
+
+
+#region-branding {
+	background:url(/sites/all/themes/fcrn_d7/img/eci_ox_logo_sm.png) no-repeat right 0;
+	overflow:visible;
+	padding:5px 0 0 0;
+}
+
+#zone-content {
+	padding-top:0;
+}
+
+/* LOGO AND SLOGAN */
+.logo-img{
+	width:200px;
+	float:left;
+	margin-top:4px;
+}
+ 
+.logo-img a {
+	display:block;
+	width:inherit;
+	margin:inherit;
+}
+.site-name-slogan {
+	float:left;
+	width:auto;
+} 
+.site-slogan {
+	padding:28px 0 0 20px;
+	color:#fff; 
+	letter-spacing: 0.005em;
+	font-size:2em;
+	text-align: left;
+}
+
+#foodsource {
+	font-size:0.9em;
+}
+
+/* NEW MENU*/
+
+#block-superfish-2 ul.menu > li a {
+	display:block;
+	color:#fff;
+	padding:15px 20px;
+	font-size:1.4em;
+	margin:0;
+}
+
+					#block-superfish-2 ul.menu li > ul {
+						width:200%;
+					}
+
+/* NEW HOME PAGE FIRST ROW TEXT PLACEMENT */
+
+ #mini-panel-new_homepage_row_1 .panel-col-first h4 {
+	font-size:1.5em;
+}
+				 .bubblediv h2.pane-title {
+					font-size:2em;
+				}
+
+
+
+/* NEW HOME PAGE SECOND ROW TEXT PLACEMENT */
+
+#mini-panel-new_homepage_row_2 .panel-panel div.overlaytext a {
+					font-size:1.4em !important;
+				}
+ #mini-panel-new_homepage_row_2 .panel-panel div.overlaytext:hover a {
+					font-size:1.4em !important;
+				}
+.pane-new-homepage-row-2 h2.pane-title {
+					padding:0 20px;
+				}
+
+/* PUBLICATIONS PAGE VIEWS SETTINGS */
+
+/*  Publications views - Filtered full list */
+ .view-fcrn.view-display-id-page_6 .views-row,
+ .view-fcrn.view-display-id-page_7 .views-row {
+	height: 180px; 
+	width:30%;
+	padding:1%;
+}

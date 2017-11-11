@@ -1,0 +1,140 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+/* NEW HOMEPAGE STUFF */
+
+/* LOGO AND SLOGAN */
+.logo-img{
+	width:275px;
+}
+#section-content {
+	margin:190px 0 0 0;	
+	padding:0 0 300px 0;	
+}
+
+#foodsource {
+	font-size:1em;
+}
+
+
+.node-type-blog  #block-system-main .grid-9 .field-name-ds-user-picture {
+	float:right;
+	width:4.5%;
+}
+
+/* REGION SPECIFIC FONT SIZING */
+.front .pane-1 p span {
+	font-size:1em;
+}
+
+.front .panel-pane h3 {
+	font-size:2.2em;
+}
+.pane-menu-menu-research-library-box-menu li a {
+	font-size:1em;
+	line-height:1.1em;
+	}
+
+
+/* SIDEBAR FIRST */
+
+#region-sidebar-first {font-size:1em;}
+
+/* Sidebar menu width control */
+ #region-sidebar-first .block h2 {width:84%;}
+ #region-sidebar-first .block .content li {width:95%;}
+ #region-sidebar-first .block .content li.active-trail a {width:98%;}
+
+
+
+.pane-node-field-region {
+	width:40%;
+	float:left;
+}
+
+/*advisory board*/
+
+.view-users .views-field-field-last-name {
+	width:80%;
+}
+
+/*END advisory board*/
+
+
+body[class*="page-network"] .pane-network-members-row-1 .panel-col-first img {
+	height:auto;
+}
+
+  .page-network-members .panel-pane  h3,  
+  .page-network .panel-pane  h3,  
+ .page-spotlight .panel-pane  h3,  
+  .page-resources .panel-pane h3   {
+	  width:100%;
+	padding:0;
+ 	background-color:#d6e7e1;
+	font-size:2.2em;
+}
+
+body[class*="page-network"] .view-term-lists .views-row-odd, 
+body[class*="page-network"] .view-term-lists .views-row-even {
+width:50%;
+}
+body[class*="page-network"] .view-term-lists .views-row a {
+	padding:15px;
+}
+
+	 
+	
+	 
+	  /* FRONT CONNECT SM BLOCK */
+
+.pane-block-33 h2 {
+	font-size:2.6em;
+	margin-bottom:0;
+}
+
+
+/* MENU BAR SEARCH BOX */
+
+#block-search-form {
+	float:right;
+	text-align:left;
+	width:31%;
+}
+
+#zone-menu .block-views {
+	float:right;
+	width:25%;
+}
+
+
+
+
+
+
+
+/* NEW HOME PAGE FIRST ROW TEXT PLACEMENT */
+
+#mini-panel-new_homepage_row_1 .panel-col-first h4 {
+	font-size:1.95em;
+	padding:0 45px 0 0;
+	line-height:1.4em;
+	marign-botto:1em;
+	} 
+
+
+
+/* NEW HOME PAGE SECOND ROW TEXT PLACEMENT */
+ #mini-panel-new_homepage_row_2 .panel-panel div.overlaytext a {
+					font-size:2.2em !important;
+				}
+ #mini-panel-new_homepage_row_2 .panel-panel div.overlaytext:hover a {
+					font-size:2.2em !important;
+				}
+
+
+/* PUBLICATIONS PAGE VIEWS SETTINGS */
+
+/*  Publications views - Filtered full list */
+  .view-fcrn.view-display-id-page_6 .views-row, 
+.view-fcrn.view-display-id-page_7 .views-row {
+	height: 200px; 
+}

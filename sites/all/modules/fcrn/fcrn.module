@@ -1,0 +1,14 @@
+<?php
+
+
+
+/**
+ * Implements hook_node_access(). Hides FCRN private pages from prying eyes. 
+ */
+function fcrn_node_access($node, $op, $account) {
+  if (
+    $node->type == 'fcrn_private' &&
+    !in_array('administrator', $account->roles)
+  ) { return NODE_ACCESS_DENY; }
+  return NODE_ACCESS_IGNORE;
+}

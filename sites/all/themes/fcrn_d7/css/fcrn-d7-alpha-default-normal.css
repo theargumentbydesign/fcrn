@@ -1,0 +1,166 @@
+
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+
+
+/* NEW HOMEPAGE STUFF */
+
+
+#region-branding {
+	padding:25px 0 0 0;
+}
+/* LOGO AND SLOGAN */
+
+  #zone-content {
+	padding-top:20px;
+}
+ #section-content {
+	margin:180px 0 0 0;	
+	padding:0 0 300px 0;	
+}
+
+
+#section-header {
+	height:180px !important;
+}
+
+/* LOGO AND SLOGAN */
+.logo-img{
+	margin:0;
+	width:275px;
+}
+ 
+.site-slogan {
+	padding:28px 0 16px 20px;
+	color:#fff; 
+	letter-spacing: 0.005em;
+	font-size:2.6em;
+}
+
+
+
+
+.node-type-blog  #block-system-main .grid-9 .field-name-ds-user-picture {
+	float:right;
+	width:5.6%;
+}
+
+
+/* REGION SPECIFIC FONT SIZING */
+.front .pane-1 p span {
+	font-size:0.8em;
+}
+
+.front .panel-pane h3 {
+	font-size:2em;
+}
+.pane-menu-menu-research-library-box-menu li a {
+	font-size:1em;
+	}
+
+
+/* SIDEBAR FIRST */
+
+#region-sidebar-first {font-size:0.9em;}
+
+/* Sidebar menu width control */
+ #region-sidebar-first .block h2 {width:82%;}
+ 
+
+
+
+
+/* FORM ELEMENTS  */
+#block-views-exp-users-page-3 .block-inner {
+		padding:2em;
+	}	
+
+
+
+
+/* NETWORK LANDING PAGES */
+
+body[class*="page-network"] .pane-network-members-row-1 .panel-col-first img {
+	height:190px;
+}
+body[class*="page-network"] .view-term-lists .views-row-odd, 
+body[class*="page-network"] .view-term-lists .views-row-even {
+width:50%;
+}
+body[class*="page-network"] .view-term-lists .views-row a {
+	padding:15px;
+	height:33px;
+}
+
+.regionoverride {
+	width:auto;
+	float:none;
+	margin-top:-10px;
+}
+
+.signups {
+width:75%;
+}
+
+	 
+ /* FRONT CONNECT SM BLOCK */
+
+.pane-block-33 h2 {
+	font-size:2em;
+	margin-bottom:0;
+}
+
+
+/* MENU BAR SEARCH BOX */
+#block-search-form {
+	float:right;
+	text-align:right;
+	width:30%;
+}
+
+#region-menu #edit-search-api-views-fulltext-wrapper {
+	width:70%;
+	float:left;
+}
+#zone-menu .block-views {
+	float:right;
+	width:31%;
+}
+
+
+
+
+/* NEW HOME PAGE FIRST ROW TEXT PLACEMENT */
+
+ #mini-panel-new_homepage_row_1 .panel-col-first h4 {
+	font-size:1.8em;
+}
+				 .bubblediv h2.pane-title {
+					font-size:2.5em;
+				}
+
+
+/* NEW HOME PAGE SECOND ROW TEXT PLACEMENT */
+
+ #mini-panel-new_homepage_row_2 .panel-panel div.overlaytext a {
+					font-size:1.6em !important;
+				}
+ #mini-panel-new_homepage_row_2 .panel-panel div.overlaytext:hover a {
+					font-size:1.6em !important;
+				}
+ .pane-new-homepage-row-2 h2.pane-title {
+					padding:0;
+				}
+
+/* PUBLICATIONS PAGE VIEWS SETTINGS */
+
+/*  Publications views - Filtered full list */
+  .view-fcrn.view-display-id-page_6 .views-row, 
+  .view-fcrn.view-display-id-page_7 .views-row {
+	height: 180px; 
+	width:23%;
+	padding:1%;
+	max-height: inherit; 
+} 
